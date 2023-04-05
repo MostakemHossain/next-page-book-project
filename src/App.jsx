@@ -1,11 +1,12 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">
-      Hello world! this is mostakem
-    </h1>
+      <h1>Starting point</h1>
+      <Outlet></Outlet>
+
     </div>
   );
 };
